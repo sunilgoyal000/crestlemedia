@@ -6,7 +6,7 @@
 
 // Configuration
 $config = [
-    'recipient_email' => 'hello@crestlemedia.com',
+    'recipient_email' => 'crestlemedia@gmail.com',
     'subject' => 'New Contact Form Submission - Crestle Media',
     'success_message' => 'Thank you! Your message has been sent successfully.',
     'error_message' => 'Sorry, there was an error sending your message. Please try again.'
