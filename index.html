@@ -1,617 +1,161 @@
-<!-- index.html -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Crestle Media is a premier digital marketing agency specializing in social media strategy, content creation, paid advertising, and brand growth. Based in Gurugram & Barnala, Punjab.">
-  <meta name="keywords" content="digital marketing, social media marketing, content creation, brand strategy, SEO, paid advertising, Instagram marketing, Facebook ads">
-  <meta name="author" content="Crestle Media">
-  <meta name="robots" content="index, follow">
-  
-  
-  <!-- Security Headers -->
-  <meta http-equiv="X-Content-Type-Options" content="nosniff">
-  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
-
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://crestlemedia.vercel.app/">
-  <meta property="og:title" content="Crestle Media — We Grow Brands That Matter">
-  <meta property="og:description" content="Premier digital marketing agency specializing in social media strategy, content creation, and brand growth.">
-  <meta property="og:image" content="https://picsum.photos/seed/crestle-og/1200/630">
-  
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://crestlemedia.vercel.app/">
-  <meta property="twitter:title" content="Crestle Media — We Grow Brands That Matter">
-  <meta property="twitter:description" content="Premier digital marketing agency specializing in social media strategy, content creation, and brand growth.">
-  <meta property="twitter:image" content="https://picsum.photos/seed/crestle-og/1200/630">
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Crestle Media - Premier digital marketing agency specializing in social media, content creation, and brand growth.">
   <title>Crestle Media — We Grow Brands That Matter</title>
-  
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>
-  <link rel="canonical" href="https://crestlemedia.vercel.app/">
-  
-  <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Bootstrap Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <!-- AOS Animation CSS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <!-- Custom CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="100" tabindex="0">
+<body>
 
-  <!-- NAVBAR -->
-  <nav id="mainNav" class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="#home" aria-label="Crestle Media Home">
-        <img src="images/logo.png" alt="Crestle Media Logo" class="rounded me-2" width="48" height="48" loading="lazy" onerror="this.src='https://picsum.photos/seed/crestle/48/48'">
-        <div class="d-none d-sm-block">Crestle <strong>Media</strong></div>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navMenu">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-        <a href="#contact" class="btn btn-primary ms-lg-3">Get Started</a>
-      </div>
-  </nav>
-
-  <!-- HERO -->
-  <header id="home" class="container">
-    <div class="hero row align-items-center">
-      <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
-        <span class="badge bg-primary-subtle text-primary mb-3 px-3 py-2 rounded-pill">#1 Digital Marketing Agency</span>
-        <h1 class="display-4 fw-bold">We Grow Brands <span class="text-accent">That Matter</span></h1>
-        <p class="lead mb-4">Transform your digital presence with tailored strategies, creative content, and measurable results that drive real business growth.</p>
-        <div class="d-flex gap-3 mb-4 flex-wrap">
-          <a href="#contact" class="btn btn-primary btn-lg px-4">Get Free Consultation</a>
-          <a href="#portfolio" class="btn btn-outline-secondary btn-lg px-4">View Our Work</a>
-        </div>
-        <div class="d-flex gap-4 flex-wrap mt-4">
-          <div class="trust-badge">
-            <h5 class="mb-0 fw-bold">500+</h5>
-            <small class="text-muted">Clients Served</small>
-          </div>
-          <div class="trust-badge">
-            <h5 class="mb-0 fw-bold">10M+</h5>
-            <small class="text-muted">Reach Achieved</small>
-          </div>
-          <div class="trust-badge">
-            <h5 class="mb-0 fw-bold">98%</h5>
-            <small class="text-muted">Satisfaction Rate</small>
-          </div>
-      </div>
-      <div class="col-lg-6 text-center d-none d-lg-block" data-aos="fade-left" data-aos-duration="1000">
-        <img src="https://picsum.photos/seed/crestle-hero/720/500" alt="Digital Marketing Team" class="img-fluid rounded shadow-lg hero-img" loading="eager">
-      </div>
-  </header>
-
-  <!-- LOGO CLOUD -->
-  <section class="py-5 bg-light">
-    <div class="container">
-      <p class="text-center text-muted mb-4">Trusted by brands across industries</p>
-      <div class="row align-items-center justify-content-center g-4 opacity-75">
-        <div class="col-4 col-md-2 text-center"><h3 class="text-muted"><i class="fab fa-google"></i></h3></div>
-        <div class="col-4 col-md-2 text-center"><h3 class="text-muted"><i class="fab fa-meta"></i></h3></div>
-        <div class="col-4 col-md-2 text-center"><h3 class="text-muted"><i class="fab fa-linkedin"></i></h3></div>
-        <div class="col-4 col-md-2 text-center"><h3 class="text-muted"><i class="fab fa-instagram"></i></h3></div>
-        <div class="col-4 col-md-2 text-center"><h3 class="text-muted"><i class="fab fa-tiktok"></i></h3></div>
-        <div class="col-4 col-md-2 text-center"><h3 class="text-muted"><i class="fab fa-youtube"></i></h3></div>
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="images/logo.png" alt="Logo" width="40" height="40" class="rounded me-2" onerror="this.src='https://picsum.photos/40/40'">
+      <strong>Crestle Media</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary ms-3">Get Started</a>
     </div>
-  </section>
+</nav>
 
-  <!-- ABOUT -->
-  <section id="about" class="container py-5">
+<header id="home" class="hero-section">
+  <div class="container">
     <div class="row align-items-center">
-      <div class="col-lg-6" data-aos="fade-right">
+      <div class="col-lg-6">
+        <h1 class="display-4 fw-bold mb-4">We Grow Brands <span class="text-accent">That Matter</span></h1>
+        <p class="lead mb-4">Transform your digital presence with tailored strategies and measurable results.</p>
+        <a href="#contact" class="btn btn-primary btn-lg">Get Free Consultation</a>
+      </div>
+      <div class="col-lg-6 text-center d-none d-lg-block">
+        <img src="https://picsum.photos/600/400" alt="Digital Marketing" class="img-fluid rounded">
+      </div>
+  </div>
+</header>
+
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
         <h2 class="fw-bold mb-4">About Crestle Media</h2>
-        <p class="lead text-muted mb-4">We are a results-driven digital marketing agency that combines strategy, creativity, and analytics to grow brands online.</p>
-        <p class="text-muted mb-4">Our cross-functional team of experts creates high-performing content, runs targeted ad campaigns, and builds communities that convert. We believe in data-driven decisions and transparent reporting.</p>
-        <div class="row g-3 mb-4">
-          <div class="col-6">
-            <div class="d-flex align-items-center">
-              <div class="icon-box me-3"><i class="fas fa-users text-primary"></i></div>
-              <div>
-                <h6 class="mb-0 fw-bold">Expert Team</h6>
-                <small class="text-muted">15+ Professionals</small>
-              </div>
-          </div>
-          <div class="col-6">
-            <div class="d-flex align-items-center">
-              <div class="icon-box me-3"><i class="fas fa-chart-pie text-primary"></i></div>
-              <div>
-                <h6 class="mb-0 fw-bold">Data-Driven</h6>
-                <small class="text-muted">Analytics First</small>
-              </div>
-          </div>
-          <div class="col-6">
-            <div class="d-flex align-items-center">
-              <div class="icon-box me-3"><i class="fas fa-rocket text-primary"></i></div>
-              <div>
-                <h6 class="mb-0 fw-bold">Fast Results</h6>
-                <small class="text-muted">Quick Turnaround</small>
-              </div>
-          </div>
-          <div class="col-6">
-            <div class="d-flex align-items-center">
-              <div class="icon-box me-3"><i class="fas fa-headset text-primary"></i></div>
-              <div>
-                <h6 class="mb-0 fw-bold">24/7 Support</h6>
-                <small class="text-muted">Always Available</small>
-              </div>
-          </div>
-        <a href="#contact" class="btn btn-outline-primary px-4">Learn More</a>
+        <p class="text-muted">We are a results-driven digital marketing agency that combines strategy, creativity, and analytics to grow brands online.</p>
+        <ul class="list-unstyled mt-4">
+          <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Expert Team</li>
+          <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Data-Driven Approach</li>
+          <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>24/7 Support</li>
+        </ul>
       </div>
-      <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
-        <div class="card border-0 shadow-lg p-4 service-card">
-          <div class="card-body">
-            <h5 class="card-title fw-bold mb-3"><i class="fas fa-lightbulb text-accent me-2"></i>Our Approach</h5>
-            <div class="process-steps">
-              <div class="process-step d-flex align-items-center mb-3">
-                <span class="step-number">01</span>
-                <div>
-                  <h6 class="mb-0 fw-bold">Research</h6>
-                  <small class="text-muted">Market analysis & competitor research</small>
-                </div>
-              <div class="process-step d-flex align-items-center mb-3">
-                <span class="step-number">02</span>
-                <div>
-                  <h6 class="mb-0 fw-bold">Strategy</h6>
-                  <small class="text-muted">Custom plan tailored to your goals</small>
-                </div>
-              <div class="process-step d-flex align-items-center mb-3">
-                <span class="step-number">03</span>
-                <div>
-                  <h6 class="mb-0 fw-bold">Create</h6>
-                  <small class="text-muted">Compelling content & designs</small>
-                </div>
-              <div class="process-step d-flex align-items-center mb-3">
-                <span class="step-number">04</span>
-                <div>
-                  <h6 class="mb-0 fw-bold">Amplify</h6>
-                  <small class="text-muted">Paid & organic reach campaigns</small>
-                </div>
-              <div class="process-step d-flex align-items-center">
-                <span class="step-number">05</span>
-                <div>
-                  <h6 class="mb-0 fw-bold">Measure</h6>
-                  <small class="text-muted">Track & optimize performance</small>
-                </div>
-            </div>
+      <div class="col-lg-6">
+        <div class="card border-0 shadow p-4">
+          <h5 class="fw-bold"><i class="fas fa-lightbulb text-accent me-2"></i>Our Approach</h5>
+          <p class="text-muted mb-0">Research → Strategy → Create → Amplify → Measure</p>
         </div>
     </div>
-  </section>
+</section>
 
-  <!-- SERVICES -->
-  <section id="services" class="container py-5">
-    <div class="text-center mb-5" data-aos="fade-up">
-      <span class="badge bg-primary-subtle text-primary px-3 py-2 rounded-pill mb-3">Our Services</span>
-      <h2 class="fw-bold">Comprehensive Digital Solutions</h2>
-      <p class="text-muted mx-auto" style="max-width: 600px;">We offer end-to-end digital marketing services tailored to your brand and goals.</p>
-    </div>
-
+<section id="services" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5">Our Services</h2>
     <div class="row g-4">
-      <!-- Service 1 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="card h-100 border-0 shadow-sm service-card p-4">
-          <div class="icon-circle bg-primary-subtle mb-3">
-            <i class="fab fa-instagram fa-2x text-primary"></i>
-          </div>
-          <h5 class="fw-bold mb-2">Social Media Marketing</h5>
-          <p class="text-muted mb-3">Build engaged communities on Instagram, Facebook, LinkedIn, and more.</p>
-          <ul class="list-unstyled text-muted small">
-            <li><i class="fas fa-check text-accent me-2"></i>Content Strategy</li>
-            <li><i class="fas fa-check text-accent me-2"></i>Community Management</li>
-            <li><i class="fas fa-check text-accent me-2"></i>Influencer Marketing</li>
-          </ul>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4">
+          <i class="fab fa-instagram fa-2x text-primary mb-3"></i>
+          <h5 class="fw-bold">Social Media Marketing</h5>
+          <p class="text-muted">Build engaged communities on Instagram, Facebook, LinkedIn and more.</p>
         </div>
-
-      <!-- Service 2 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="card h-100 border-0 shadow-sm service-card p-4">
-          <div class="icon-circle bg-success-subtle mb-3">
-            <i class="fas fa-bullseye fa-2x text-success"></i>
-          </div>
-          <h5 class="fw-bold mb-2">Paid Advertising</h5>
-          <p class="text-muted mb-3">Maximize ROI with data-driven paid campaigns across Google Ads, Meta Ads, and more.</p>
-          <ul class="list-unstyled text-muted small">
-            <li><i class="fas fa-check text-accent me-2"></i>Campaign Setup</li>
-            <li><i class="fas fa-check text-accent me-2"></i>A/B Testing</li>
-            <li><i class="fas fa-check text-accent me-2"></i>Retargeting</li>
-          </ul>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4">
+          <i class="fas fa-bullseye fa-2x text-success mb-3"></i>
+          <h5 class="fw-bold">Paid Advertising</h5>
+          <p class="text-muted">Maximize ROI with data-driven campaigns across Google and Meta Ads.</p>
         </div>
-
-      <!-- Service 3 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="card h-100 border-0 shadow-sm service-card p-4">
-          <div class="icon-circle bg-warning-subtle mb-3">
-            <i class="fas fa-palette fa-2x text-warning"></i>
-          </div>
-          <h5 class="fw-bold mb-2">Content Creation</h5>
-          <p class="text-muted mb-3">Professional content that tells your brand story.</p>
-          <ul class="list-unstyled text-muted small">
-            <li><i class="fas fa-check text-accent me-2"></i>Video Production</li>
-            <li><i class="fas fa-check text-accent me-2"></i>Graphic Design</li>
-            <li><i class="fas fa-check text-accent me-2"></i>Copywriting</li>
-          </ul>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4">
+          <i class="fas fa-palette fa-2x text-warning mb-3"></i>
+          <h5 class="fw-bold">Content Creation</h5>
+          <p class="text-muted">Professional photos, videos, and graphics that tell your brand story.</p>
         </div>
-
-      <!-- Service 4 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
-        <div class="card h-100 border-0 shadow-sm service-card p-4">
-          <div class="icon-circle bg-info-subtle mb-3">
-            <i class="fas fa-search fa-2x text-info"></i>
-          </div>
-          <h5 class="fw-bold mb-2">SEO Services</h5>
-          <p class="text-muted mb-3">Rank higher on search engines with our comprehensive SEO strategies.</p>
-          <ul class="list-unstyled text-muted small">
-            <li><i class="fas fa-check text-accent me-2"></i>On-Page SEO</li>
-            <li><i class="fas fa-check text-accent me-2"></i>Off-Page SEO</li>
-            <li><i class="fas fa-check text-accent me-2"></i>Technical SEO</li>
-          </ul>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4">
+          <i class="fas fa-search fa-2x text-info mb-3"></i>
+          <h5 class="fw-bold">SEO Services</h5>
+          <p class="text-muted">Rank higher on search engines with comprehensive SEO strategies.</p>
         </div>
-
-      <!-- Service 5 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
-        <div class="card h-100 border-0 shadow-sm service-card p-4">
-          <div class="icon-circle bg-danger-subtle mb-3">
-            <i class="fas fa-envelope fa-2x text-danger"></i>
-          </div>
-          <h5 class="fw-bold mb-2">Email Marketing</h5>
-          <p class="text-muted mb-3">Nurture leads and drive conversions with automated email campaigns.</p>
-          <ul class="list-unstyled text-muted small">
-            <li><i class="fas fa-check text-accent me-2"></i>Campaign Strategy</li>
-            <li><i class="fas fa-check text-accent me-2"></i>Automation</li>
-            <li><i class="fas fa-check text-accent me-2"></i>Analytics</li>
-          </ul>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4">
+          <i class="fas fa-envelope fa-2x text-danger mb-3"></i>
+          <h5 class="fw-bold">Email Marketing</h5>
+          <p class="text-muted">Nurture leads with automated email campaigns and newsletters.</p>
         </div>
-
-      <!-- Service 6 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
-        <div class="card h-100 border-0 shadow-sm service-card p-4">
-          <div class="icon-circle bg-purple-subtle mb-3">
-            <i class="fas fa-bullhorn fa-2x text-purple"></i>
-          </div>
-          <h5 class="fw-bold mb-2">Brand Strategy</h5>
-          <p class="text-muted mb-3">Define your brand identity and positioning to stand out.</p>
-          <ul class="list-unstyled text-muted small">
-            <li><i class="fas fa-check text-accent me-2"></i>Brand Identity</li>
-            <li><i class="fas fa-check text-accent me-2"></i>Messaging</li>
-            <li><i class="fas fa-check text-accent me-2"></i>Positioning</li>
-          </ul>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4">
+          <i class="fas fa-bullhorn fa-2x text-purple mb-3"></i>
+          <h5 class="fw-bold">Brand Strategy</h5>
+          <p class="text-muted">Define your brand identity and positioning to stand out.</p>
         </div>
     </div>
-  </section>
+</section>
 
-  <!-- PORTFOLIO -->
-  <section id="portfolio" class="container py-5">
-    <div class="text-center mb-5" data-aos="fade-up">
-      <span class="badge bg-primary-subtle text-primary px-3 py-2 rounded-pill mb-3">Our Work</span>
-      <h2 class="fw-bold">Recent Projects</h2>
-      <p class="text-muted mx-auto" style="max-width: 600px;">A showcase of our successful campaigns and creative work.</p>
-    </div>
-
-    <div class="row g-4">
-      <!-- Portfolio items -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="card border-0 shadow-sm overflow-hidden">
-          <img src="https://picsum.photos/seed/portfolio1/400/300" alt="Fashion Brand Campaign" class="portfolio-img" loading="lazy">
-          <div class="card-body">
-            <span class="badge bg-secondary mb-2">Social Media</span>
-            <h5 class="fw-bold mb-2">Fashion Brand Campaign</h5>
-            <p class="text-muted small mb-0">Increased engagement by 300% in 3 months</p>
-          </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="card border-0 shadow-sm overflow-hidden">
-          <img src="https://picsum.photos/seed/portfolio2/400/300" alt="Restaurant Chain" class="portfolio-img" loading="lazy">
-          <div class="card-body">
-            <span class="badge bg-secondary mb-2">Paid Ads</span>
-            <h5 class="fw-bold mb-2">Restaurant Chain Growth</h5>
-            <p class="text-muted small mb-0">Generated 5000+ leads with 3x ROAS</p>
-          </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="card border-0 shadow-sm overflow-hidden">
-          <img src="https://picsum.photos/seed/portfolio3/400/300" alt="Tech Startup" class="portfolio-img" loading="lazy">
-          <div class="card-body">
-            <span class="badge bg-secondary mb-2">Content Creation</span>
-            <h5 class="fw-bold mb-2">Tech Startup Launch</h5>
-            <p class="text-muted small mb-0">Built brand awareness from zero to hero</p>
-          </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
-        <div class="card border-0 shadow-sm overflow-hidden">
-          <img src="https://picsum.photos/seed/portfolio4/400/300" alt="Fitness App" class="portfolio-img" loading="lazy">
-          <div class="card-body">
-            <span class="badge bg-secondary mb-2">SEO</span>
-            <h5 class="fw-bold mb-2">Fitness App SEO</h5>
-            <p class="text-muted small mb-0">Ranked #1 for target keywords</p>
-          </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
-        <div class="card border-0 shadow-sm overflow-hidden">
-          <img src="https://picsum.photos/seed/portfolio5/400/300" alt="E-commerce Store" class="portfolio-img" loading="lazy">
-          <div class="card-body">
-            <span class="badge bg-secondary mb-2">E-commerce</span>
-            <h5 class="fw-bold mb-2">E-commerce Store</h5>
-            <p class="text-muted small mb-0">200% increase in online sales</p>
-          </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
-        <div class="card border-0 shadow-sm overflow-hidden">
-          <img src="https://picsum.photos/seed/portfolio6/400/300" alt="Healthcare Brand" class="portfolio-img" loading="lazy">
-          <div class="card-body">
-            <span class="badge bg-secondary mb-2">Brand Strategy</span>
-            <h5 class="fw-bold mb-2">Healthcare Brand</h5>
-            <p class="text-muted small mb-0">Complete brand transformation</p>
-          </div>
-      </div>
-
-    <div class="text-center mt-5" data-aos="fade-up">
-      <a href="#contact" class="btn btn-outline-primary px-5">View All Projects</a>
-    </div>
-  </section>
-
-  <!-- TESTIMONIALS -->
-  <section id="testimonials" class="py-5 bg-light">
-    <div class="container">
-      <div class="text-center mb-5" data-aos="fade-up">
-        <span class="badge bg-primary-subtle text-primary px-3 py-2 rounded-pill mb-3">Testimonials</span>
-        <h2 class="fw-bold">What Our Clients Say</h2>
-        <p class="text-muted mx-auto" style="max-width: 600px;">Don't just take our word for it - hear from our satisfied clients.</p>
-      </div>
-
-      <div class="row g-4">
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="card border-0 shadow-sm p-4 h-100">
-            <div class="d-flex text-warning mb-3">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
-            <p class="mb-4">"Crestle Media transformed our social media presence. Our engagement increased by 300% within just 3 months!"</p>
-            <div class="d-flex align-items-center">
-              <img src="https://picsum.photos/seed/test1/50/50" alt="Client" class="rounded-circle me-3" width="50" height="50" loading="lazy">
-              <div>
-                <h6 class="mb-0 fw-bold">Priya Sharma</h6>
-                <small class="text-muted">CEO, Fashion Forward</small>
-              </div>
-          </div>
-
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-          <div class="card border-0 shadow-sm p-4 h-100">
-            <div class="d-flex text-warning mb-3">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
-            <p class="mb-4">"The best investment we made for our business. Professional, results-driven, and always available when we need them."</p>
-            <div class="d-flex align-items-center">
-              <img src="https://picsum.photos/seed/test2/50/50" alt="Client" class="rounded-circle me-3" width="50" height="50" loading="lazy">
-              <div>
-                <h6 class="mb-0 fw-bold">Rahul Verma</h6>
-                <small class="text-muted">Founder, TechStart Inc</small>
-              </div>
-          </div>
-
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-          <div class="card border-0 shadow-sm p-4 h-100">
-            <div class="d-flex text-warning mb-3">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
-            <p class="mb-4">"Our revenue increased by 200% after working with Crestle Media. Their data-driven approach really works!"</p>
-            <div class="d-flex align-items-center">
-              <img src="https://picsum.photos/seed/test3/50/50" alt="Client" class="rounded-circle me-3" width="50" height="50" loading="lazy">
-              <div>
-                <h6 class="mb-0 fw-bold">Ankit Gupta</h6>
-                <small class="text-muted">Director, Spice Garden</small>
-              </div>
-          </div>
-      </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="container py-5">
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5">Get In Touch</h2>
     <div class="row">
-      <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right">
-        <span class="badge bg-primary-subtle text-primary px-3 py-2 rounded-pill mb-3">Get In Touch</span>
-        <h2 class="fw-bold mb-4">Let's Grow Your Brand Together</h2>
-        <p class="text-muted mb-4">Ready to take your digital presence to the next level? Send us an email or call us directly.</p>
-        
-        <div class="contact-info">
-          <div class="d-flex align-items-center mb-4">
-            <div class="icon-circle2 me-3"><i class="fas fa-map-marker-alt text-primary"></i></div>
-            <div>
-              <h6 class="mb-0 fw-bold">Our Offices</h6>
-              <small class="text-muted">Gurugram, Haryana & Barnala, Punjab</small>
-            </div>
-          <div class="d-flex align-items-center mb-4">
-            <div class="icon-circle2 me-3"><i class="fas fa-envelope text-primary"></i></div>
-            <div>
-              <h6 class="mb-0 fw-bold">Email Us</h6>
-              <a href="mailto:crestlemedia@gmail.com" class="text-decoration-none text-muted">crestlemedia@gmail.com</a>
-            </div>
-          <div class="d-flex align-items-center mb-4">
-            <div class="icon-circle2 me-3"><i class="fas fa-phone text-primary"></i></div>
-            <div>
-              <h6 class="mb-0 fw-bold">Call Us</h6>
-              <a href="tel:+918968158929" class="text-decoration-none text-muted">+91 89681 58929</a>
-            </div>
-          <div class="d-flex align-items-center">
-            <div class="icon-circle2 me-3"><i class="fas fa-clock text-primary"></i></div>
-            <div>
-              <h6 class="mb-0 fw-bold">Working Hours</h6>
-              <small class="text-muted">Mon - Sat: 9:00 AM - 7:00 PM</small>
-            </div>
-        </div>
-
+      <div class="col-lg-6 mb-4">
+        <h4 class="fw-bold mb-4">Let's Grow Your Brand Together</h4>
+        <p class="text-muted mb-4">Ready to take your digital presence to the next level? Contact us today.</p>
+        <div class="mb-3"><i class="fas fa-map-marker-alt text-primary me-2"></i> Gurugram, Haryana & Barnala, Punjab</div>
+        <div class="mb-3"><i class="fas fa-envelope text-primary me-2"></i> crestlemedia@gmail.com</div>
+        <div class="mb-3"><i class="fas fa-phone text-primary me-2"></i> +91 89681 58929</div>
         <div class="mt-4">
-          <h6 class="fw-bold mb-3">Follow Us</h6>
-          <div class="d-flex gap-2">
-            <a href="https://instagram.com" class="btn btn-outline-secondary btn-sm" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://facebook.com" class="btn btn-outline-secondary btn-sm" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://linkedin.com" class="btn btn-outline-secondary btn-sm" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://twitter.com" class="btn btn-outline-secondary btn-sm" aria-label="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://youtube.com" class="btn btn-outline-secondary btn-sm" aria-label="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
-          </div>
-      </div>
-
-      <div class="col-lg-7" data-aos="fade-left">
-        <div class="card border-0 shadow-lg p-4 p-lg-5">
-          <h4 class="fw-bold mb-4">Send us a Message</h4>
-          <p class="text-muted mb-4">Click the button below to send us an email directly:</p>
-          <a href="mailto:crestlemedia@gmail.com?subject=Inquiry from Website" class="btn btn-primary btn-lg w-100">
-            <i class="fas fa-envelope me-2"></i>Send Email
-          </a>
-          <hr class="my-4">
-          <p class="text-muted small mb-0">Or fill out the form below and we'll get back to you:</p>
-          <form id="contactForm" class="mt-3">
-            <div class="row g-3">
-              <div class="col-md-6">
-                <label for="name" class="form-label fw-bold">Full Name *</label>
-                <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" required minlength="2" maxlength="100">
-                <div class="invalid-feedback">Please enter your name (at least 2 characters).</div>
-              <div class="col-md-6">
-                <label for="email" class="form-label fw-bold">Email Address *</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="john@example.com" required>
-                <div class="invalid-feedback">Please enter a valid email address.</div>
-              <div class="col-md-6">
-                <label for="phone" class="form-label fw-bold">Phone Number</label>
-                <input type="tel" class="form-control" id="phone" name="phone" placeholder="+91 98765 43210">
-              </div>
-              <div class="col-md-6">
-                <label for="service" class="form-label fw-bold">Service Interested In</label>
-                <select class="form-select" id="service" name="service">
-                  <option value="">Select a service</option>
-                  <option value="social-media">Social Media Marketing</option>
-                  <option value="paid-ads">Paid Advertising</option>
-                  <option value="content-creation">Content Creation</option>
-                  <option value="seo">SEO Services</option>
-                  <option value="email-marketing">Email Marketing</option>
-                  <option value="brand-strategy">Brand Strategy</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-              <div class="col-12">
-                <label for="message" class="form-label fw-bold">Message *</label>
-                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tell us about your project..." required minlength="10" maxlength="1000"></textarea>
-                <div class="invalid-feedback">Please enter a message (at least 10 characters).</div>
-                <small class="text-muted">Maximum 1000 characters</small>
-              </div>
-              <div class="col-12">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="newsletter" name="newsletter" value="yes">
-                  <label class="form-check-label text-muted" for="newsletter">Subscribe to our newsletter for marketing tips and updates</label>
-                </div>
-              <div class="col-12">
-                <button type="submit" class="btn btn-outline-primary btn-lg w-100">
-                  <i class="fas fa-paper-plane me-2"></i>Prepare Email
-                </button>
-              </div>
+          <a href="https://instagram.com" class="btn btn-outline-secondary me-2" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://facebook.com" class="btn btn-outline-secondary me-2" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://linkedin.com" class="btn btn-outline-secondary me-2" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      <div class="col-lg-6">
+        <div class="card border-0 shadow p-4">
+          <form action="https://formspree.io/f/your-form-id" method="POST">
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control" name="name" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
           </form>
         </div>
     </div>
-  </section>
+</section>
 
-  <!-- CTA SECTION -->
-  <section class="py-5 bg-primary">
-    <div class="container text-center" data-aos="zoom-in">
-      <h2 class="fw-bold text-white mb-3">Ready to Transform Your Digital Presence?</h2>
-      <p class="text-white-50 mb-4">Join hundreds of satisfied clients who have grown their business with Crestle Media.</p>
-      <a href="#contact" class="btn btn-light btn-lg px-5">Get Started Today</a>
-    </div>
-  </section>
+<footer class="bg-dark text-white py-4">
+  <div class="container text-center">
+    <p class="mb-0">&copy; 2024 Crestle Media. All rights reserved.</p>
+  </div>
+</footer>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row g-4">
-        <div class="col-lg-4">
-          <div class="d-flex align-items-center mb-3">
-            <img src="images/logo.png" alt="Crestle Media Logo" class="rounded me-2" width="40" height="40" loading="lazy" onerror="this.src='https://picsum.photos/seed/crestle/40/40'">
-            <h5 class="text-white mb-0">Crestle <strong>Media</strong></h5>
-          </div>
-          <p class="text-white-50 mb-3">We Grow Brands That Matter. Your trusted partner for digital marketing success.</p>
-          <div class="d-flex gap-2">
-            <a href="https://instagram.com" class="text-white-50" aria-label="Instagram" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
-            <a href="https://facebook.com" class="text-white-50" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
-            <a href="https://linkedin.com" class="text-white-50" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
-            <a href="https://twitter.com" class="text-white-50" aria-label="Twitter" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
-            <a href="https://youtube.com" class="text-white-50" aria-label="YouTube" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
-          </div>
-        <div class="col-6 col-lg-2">
-          <h6 class="text-white fw-bold mb-3">Quick Links</h6>
-          <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#home" class="text-white-50 text-decoration-none">Home</a></li>
-            <li class="mb-2"><a href="#about" class="text-white-50 text-decoration-none">About</a></li>
-            <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">Services</a></li>
-            <li class="mb-2"><a href="#portfolio" class="text-white-50 text-decoration-none">Portfolio</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-lg-2">
-          <h6 class="text-white fw-bold mb-3">Services</h6>
-          <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">Social Media</a></li>
-            <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">Paid Ads</a></li>
-            <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">SEO</a></li>
-            <li class="mb-2"><a href="#services" class="text-white-50 text-decoration-none">Content</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-lg-2">
-          <h6 class="text-white fw-bold mb-3">Legal</h6>
-          <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Privacy Policy</a></li>
-            <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Terms of Service</a></li>
-            <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Cookie Policy</a></li>
-            <li class="mb-2"><a href="security.txt" class="text-white-50 text-decoration-none">Security</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-lg-2">
-          <h6 class="text-white fw-bold mb-3">Contact</h6>
-          <ul class="list-unstyled mb-0 text-white-50">
-            <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i>Gurugram, Haryana</li>
-            <li class="mb-2"><i class="fas fa-envelope me-2"></i>crestlemedia@gmail.com</li>
-            <li class="mb-2"><i class="fas fa-phone me-2"></i>+91 89681 58929</li>
-          </ul>
-        </div>
-      <hr class="my-4 border-secondary">
-      <div class="row align-items-center">
-        <div class="col-md-6 text-center text-md-start">
-          <p class="text-white-50 small mb-0">&copy; 2024 Crestle Media. All rights reserved.</p>
-        </div>
-        <div class="col-md-6 text-center text-md-end">
-          <p class="text-white-50 small mb-0">Designed with <i class="fas fa-heart text-danger"></i> by Crestle Media</p>
-        </div>
-    </div>
-  </footer>
+<button id="backToTop" class="btn btn-primary rounded-circle position-fixed bottom-0 end-0 m-3" style="display:none;">
+  <i class="bi bi-arrow-up"></i>
+</button>
 
-  <!-- BACK TO TOP -->
-  <button id="toTop" class="btn btn-primary rounded-circle" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
-
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-  <!-- AOS Animation JS -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!-- Custom JS -->
-  <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
