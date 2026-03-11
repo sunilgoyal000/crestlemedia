@@ -1,0 +1,25 @@
+# Security Policy for Crestle Media
+# https://crestlemedia.com/security.txt
+
+# Encryption
+We take security seriously. Our website uses HTTPS encryption to protect your data in transit.
+
+# Reporting Security Issues
+If you discover a security vulnerability, please report it responsibly.
+
+## Contact
+Email: security@crestlemedia.com
+Response Time: 24-48 hours
+
+# Scope
+This policy covers:
+- crestlemedia.com
+- www.crestlemedia.com
+- All subdomains
+
+# Acknowledgments
+We appreciate the security community's efforts to make the internet safer.
+
+# Last Updated
+2024
+
